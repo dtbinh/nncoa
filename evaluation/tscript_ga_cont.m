@@ -1,0 +1,4 @@
+%one = agent_tester( @(x)(fetch_test_ga_cont(x, '01/01/08', '12/31/12', '01/01/13', '12/31/13' )), {'AAPL','GOOGL','AMZN','MSFT','BA.L','VOD.L'}, 10,6 );
+%two = agent_tester( @(x)(fetch_test_ga_cont(x, '01/01/08', '12/31/12', '01/01/13', '12/31/13' )), {'BLT','LLOY.L','BARC.L','GSK.L','AZN.L','DGE.L'}, 10,6 );
+%three = agent_tester( @(x)(fetch_test_ga_cont(x, '01/01/08', '12/31/12', '01/01/13', '12/31/13' )), {'EZJ.L','MT','GS','T','KO','PFE'}, 10,6 );
+four = agent_tester( @(x)(fetch_test_ga_cont(x, '01/01/08', '12/31/12', '01/01/13', '12/31/13' )), {'XOM','IBM','GE','NKE','AXP','JNJ'}, 10,6 );

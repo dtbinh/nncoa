@@ -1,0 +1,1 @@
+contffdata = agent_tester( @(x)(fetch_test_ga_cont_ff(x, '01/01/08', '12/31/12', '01/01/13', '12/31/13' )), {{'^FTSE','^GSPC','^GDAXI'},{'AAPL','GOOGL','AMZN','MSFT'},{'GLD','SLV'}}, 10,6 );
